@@ -170,6 +170,7 @@ namespace PM4MAto
         }
         private void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e)
         {
+            //test
             SerialPort sp = (SerialPort)sender;
             string data = sp.ReadLine().Trim();
 
